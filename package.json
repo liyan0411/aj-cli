@@ -1,0 +1,31 @@
+{
+  "bin": {
+    "ly": "bin/ly",
+    "ly-add": "bin/ly-add",
+    "ly-delete": "bin/ly-delete",
+    "ly-list": "bin/ly-list",
+    "ly-init": "bin/ly-init",
+    "ly-create-vue": "bin/ly-create-vue"
+  },
+  "name": "ly-cli",
+  "version": "1.0.9",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "leeyen",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "metalsmith": "^2.3.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0",
+    "chalk": "^2.4.2",
+    "latest-version": "^3.1.0",
+    "log-symbols": "^2.2.0",
+    "glob": "^7.1.2",
+    "handlebars": "^4.0.11"
+  }
+}
