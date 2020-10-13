@@ -1,14 +1,14 @@
 {
   "bin": {
-    "ly": "bin/ly",
-    "ly-add": "bin/ly-add",
-    "ly-delete": "bin/ly-delete",
-    "ly-list": "bin/ly-list",
-    "ly-init": "bin/ly-init",
-    "ly-create-vue": "bin/ly-create-vue"
+    "aj": "bin/aj",
+    "aj-add": "bin/aj-add",
+    "aj-delete": "bin/aj-delete",
+    "aj-list": "bin/aj-list",
+    "aj-init": "bin/aj-init",
+    "aj-create-vue": "bin/aj-create-vue"
   },
   "name": "ajplus-cli",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "#   en",
   "main": "index.js",
   "scripts": {
@@ -17,30 +17,30 @@
   "author": "leeyen",
   "license": "MIT",
   "dependencies": {
-    "commander": "^2.19.0",
-    "metalsmith": "^2.3.0",
-    "download-git-repo": "^1.1.0",
-    "inquirer": "^6.2.2",
-    "ora": "^3.2.0",
     "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "glob": "^7.1.2",
+    "handlebars": "^4.0.11",
+    "inquirer": "^6.2.2",
     "latest-version": "^3.1.0",
     "log-symbols": "^2.2.0",
-    "glob": "^7.1.2",
-    "handlebars": "^4.0.11"
+    "metalsmith": "^2.3.0",
+    "ora": "^3.2.0"
   },
   "directories": {
     "lib": "lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liyan0411/ly-cli.git"
+    "url": "git+https://github.com/liyan0411/aj-cli.git"
   },
   "keywords": [
     "cli",
-    "ly"
+    "aj"
   ],
   "bugs": {
-    "url": "https://github.com/liyan0411/ly-cli/issues"
+    "url": "https://github.com/liyan0411/aj-cli/issues"
   },
-  "homepage": "https://github.com/liyan0411/ly-cli#readme"
+  "homepage": "https://github.com/liyan0411/aj-cli#readme"
 }

@@ -10,10 +10,10 @@ console.log('*******************************************************************
 program
   .version(require('../package').version)
   .usage('<command> [options]')
-  .command('add', '添加新的源 ly add')
-  .command('delete', '删除源 ly list')
-  .command('list', '展示源列表 ly list')
-  .command('init', '从源初始化项目 ly init <模板名> 项目名')
-  .command('create-vue', '快速构建新vue项目 ly create-vue <项目名>')
+  .command('add', '添加新的源 aj add')
+  .command('delete', '删除源 aj list')
+  .command('list', '展示源列表 aj list')
+  .command('init', '从源初始化项目 aj init <模板名> 项目名')
+  .command('create-vue', '快速构建新vue项目 aj create-vue <项目名>')
 
 program.parse(process.argv)
