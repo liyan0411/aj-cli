@@ -8,7 +8,7 @@
     "ly-create-vue": "bin/ly-create-vue"
   },
   "name": "ly-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
