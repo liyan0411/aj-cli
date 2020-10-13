@@ -7,7 +7,7 @@
     "ly-init": "bin/ly-init",
     "ly-create-vue": "bin/ly-create-vue"
   },
-  "name": "lee",
+  "name": "ajplus-cli",
   "version": "1.0.1",
   "description": "#   en",
   "main": "index.js",
