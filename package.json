@@ -7,7 +7,7 @@
     "aj-init": "bin/aj-init",
     "aj-create-vue": "bin/aj-create-vue"
   },
-  "name": "ajplus-cli",
+  "name": "ajs-cli",
   "version": "1.0.0",
   "description": "#   en",
   "main": "index.js",
