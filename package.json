@@ -7,9 +7,9 @@
     "ly-init": "bin/ly-init",
     "ly-create-vue": "bin/ly-create-vue"
   },
-  "name": "ly-cli",
+  "name": "lee",
   "version": "1.0.1",
-  "description": "",
+  "description": "#   en",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,5 +27,20 @@
     "log-symbols": "^2.2.0",
     "glob": "^7.1.2",
     "handlebars": "^4.0.11"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyan0411/ly-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "ly"
+  ],
+  "bugs": {
+    "url": "https://github.com/liyan0411/ly-cli/issues"
+  },
+  "homepage": "https://github.com/liyan0411/ly-cli#readme"
 }
