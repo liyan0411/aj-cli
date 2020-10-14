@@ -7,9 +7,9 @@
     "aj-init": "bin/aj-init",
     "aj-create-vue": "bin/aj-create-vue"
   },
-  "name": "ajs-cli",
+  "name": "ajplus-cli",
   "version": "1.0.0",
-  "description": "#   en",
+  "description": "vue template",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
